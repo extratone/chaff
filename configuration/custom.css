@@ -1,0 +1,351 @@
+/* Written in April, 2023 by David Blue for uikeycommand.com.
+
+
+## Editorial Palette
+#74d154
+#2a3036
+#414448
+#4c4c4c
+#74d154
+#bcbcbc
+#e0f557
+#e6e6e6
+#f9f9f9
+#ff7817
+#ff7817
+
+*/
+
+@import url('https://use.typekit.net/hfn3sot.css');
+
+body {
+    font-family: neue-haas-grotesk-text, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #262b30;
+}
+
+#blog-title a {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    /* font-style:bold !important; */
+    color: #bcbcbc;
+}
+
+header nav a {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+header p.description {
+    /* font-style: italic; */
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 700;
+    line-height: 200% !important;
+    color: #bcbcbc !important;
+    font-size: 1em;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+body#collection header {
+    margin-bottom: 1em !important;
+}
+
+
+header nav a {
+    color: #bcbcbc;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 900;
+    /* margin-bottom: 1em; */
+}
+
+body,
+article {
+    font-family: neue-haas-grotesk-text, sans-serif !important;
+    font-weight: 400;
+    line-height: 155%;
+    font-size: 1.1em !important;
+    color: #f9f9f9;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* margin-top:1rem !important; */
+}
+
+
+body,
+article a:link {
+    color: #bcbcbc;
+}
+
+body,
+article a:visited {
+    color: #ff7817;
+}
+
+h1 {
+    color: #bcbcbc !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 900;
+    font-size: 2em !important;
+}
+
+h2 {
+    color: #fddf48 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-size: 1.4em !important;
+}
+
+h3 {
+    color: #ff7817 !important;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-size: 1.3em !important;
+}
+
+h4 {
+    color: #74d154 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: 1em !important;
+}
+
+h5 {
+    color: #74d154 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: 1em !important;
+}
+
+h6 {
+    color: #74d154 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: .85em !important;
+}
+
+li {
+    color: #e0f557 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-size: .85em !important;
+}
+
+code {
+    /* background-color:#f7ff85 !important; */
+    /* border: 1px solid #fb375e !important;
+    border-radius: 1px !important; */
+    font-size: 0.85em !important;
+    color: #e0f557 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    /* padding: 0px 0px 0px 0px !important; */
+}
+
+body #post pre, body#collection pre, body#post pre, body#subpage pre {
+    background: #2a3036; !important;
+    border: 1px solid #fb375e !important;
+    border-radius: 1px !important;
+    font-size: 0.85em !important;
+    color: #e0f557 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    /* padding: 0px 0px 0px 0px !important; */
+}
+
+.post-title a:visited,
+.post-title a:link {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 900;
+    color: #bcbcbc !important;
+    font-size: 1.7rem !important;
+}
+
+body#post article time.dt-published,
+body#subpage article time.dt-published {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    color: #bcbcbc !important;
+    font-size: 1rem !important;
+}
+
+body footer nav {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    color: #bcbcbc;
+}
+
+blockquote {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    color: #414448 !important;
+    border-left: 2.5px solid #bcbcbc !important;
+}
+
+table {
+    background-color: #2a3036 !important;
+    font-size: 0.8em !important;
+    line-height: 1.2em;
+    color: #e0f557 !important;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    border: 1px solid #ff7817 !important;
+    border-radius: 1px !important;
+}
+
+article table td, article table th {
+    border: 1px solid !important;
+    border-color: #74d154 !important;
+}
+
+
+.gist {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+.gist .gist-meta {
+    font-family: proxima-nova-extra-condensed, sans-serif !important;
+    font-weight: 600 !important;
+    color: #e0f557 !important;
+}
+
+.gist, .gist article, .gist article p {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 400 !important;
+}
+
+
+.gist .gist-file .gist-data {
+    background: #2a3036; !important;
+    border: 1px solid #fb375e !important;
+    border-radius: 1px !important;
+    font-size: 0.85em !important;
+    color: #e0f557 !important;
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 400;
+}
+
+.gist, .gist article, .gist article p {
+    white-space: normal !important;
+}
+
+/* .gist .gist-hr {
+    display: hide !important;
+} */
+
+hr {
+    border: 2px solid #ff7817;
+}
+
+
+body footer a.home:link,
+body footer a.home:visited {
+    color: #bcbcbc;
+}
+
+.action {
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+nav#manage ul a {
+    color: #bcbcbc;
+}
+
+nav#paging a {
+    color: #bcbcbc !important;
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+}
+
+
+a.bt {
+    background-color: #0d0d0d !important;
+    color: #bcbcbc !important;
+}
+
+a.hashtag {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    color: #bcbcbc !important;
+}
+
+body#collection #wrapper time,
+body#subpage #wrapper time,
+body#post article time.dt-published,
+body#subpage article time.dt-published {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-size: 0.95em;
+    color: #bcbcbc !important;
+}
+
+
+.custom-nav {
+    text-align: center;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    color: red;
+}
+
+.custom-nav a:link,
+.custom-nav a:visited,
+.custom-nav a:hover,
+.custom-nav a:active {
+    color: #bcbcbc;
+}
+
+.custom-nav a:hover,
+.custom-nav a:active {
+    text-decoration: underline;
+}
+
+#subscribe-btn {
+    border: 1px #e0f557;
+    background: #4c4c4c;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #74d154;
+}
+
+#emailsub {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 700;
+}
+
+sup {
+    vertical-align: auto !important;
+}
+
+.footnote {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 700;
+    /*vertical-align: sub !important; */
+    margin: -4px 0px 0 0 !important;
+    color: #fb375e !important;
+    font-size: 0.8em;
+    line-height: 0.1em !important;
+    text-decoration:underline #ff7817;
+}
+
+.footnote-ref {
+    margin-left:15px;
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 700;
+    /* margin-left:2.5px; */
+    color: #74d154 !important;
+    font-size: 1.15em;
+    /* text-decoration:underline #ff7817; */
+}
+
+.footnote-ref-text {
+    font-family: neue-haas-grotesk-display, sans-serif !important;
+    font-weight: 400;
+    color: #e0f557 !important;
+    font-size: 1em;
+    /* border-top: #bcbcbc dotted 1px; */
+}
