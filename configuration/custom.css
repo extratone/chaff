@@ -128,10 +128,10 @@ h6 {
 }
 
 li {
-    color: #e0f557 !important;
+    color: #e6e6e6 !important;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
-    font-size: .85em !important;
+    font-size: .95em !important;
 }
 
 code {
@@ -139,7 +139,8 @@ code {
     /* border: 1px solid #fb375e !important;
     border-radius: 1px !important; */
     font-size: 0.85em !important;
-    color: #e0f557 !important;
+    color: #fddf48 !important;
+    background-color: #414448 !important;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
     /* padding: 0px 0px 0px 0px !important; */
